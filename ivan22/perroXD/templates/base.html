@@ -1,0 +1,25 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} PERROS XD {% endblock %}</title>
+    
+</head>
+<body>
+    
+    <div>
+        <a href="{% url 'inicio' %}">HOME</a>
+        <a href="{% url 'juani' %}">JUANITA</a>
+        <a href="{% url 'lobito' %}">LOBITO</a>
+    </div>
+    <img src="static/saira_juana.jpg" width="300" height="175" class="img-fluid" alt="">
+    <h1>h1 de base</h1>
+    {% block content %}
+    <h2> h2 base dentro de block content base </h2>
+    {% endblock %}
+    <h3>h3 fuera del endblock base</h3>
+</body>
+    <h4> h4 fuera del body base</h4>
+
+</html>

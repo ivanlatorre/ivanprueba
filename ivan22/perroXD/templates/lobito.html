@@ -1,3 +1,6 @@
+{% extends 'base.html' %}
+{% block content %}
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -7,5 +10,7 @@
 </head>
 <body>
     <h1>LOBAZOOO</h1>
+    <a href="{% url 'inicio' %}" class="btn btn-dark">Volver</a>
 </body>
 </html>
+{% endblock %}

@@ -10,7 +10,22 @@
 </head>
 <body>
     <h1>LOBAZOOO</h1>
-    <a href="{% url 'inicio' %}" class="btn btn-dark">Volver</a>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                {% load static %}<img src="static/lobito(1).jpg" width="300" height="175" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                {% load static %}<img src="static/lobito(2).jpg" width="300" height="175" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                {% load static %}<img src="static/lobito(3).jpg" width="300" height="175" class="d-block w-100" alt="...">
+            </div>
+            </div>
+        </div>
+
+      
 </body>
+    <a href="{% url 'inicio' %}" class="btn btn-dark">Volver</a>
 </html>
 {% endblock %}

@@ -1,7 +1,15 @@
 from http.client import HTTPResponse
 from django.shortcuts import render , HttpResponse
+from django.views.generic import ListView, DetailView, TemplateView , CreateView , UpdateView, DeleteView
 
 # Create your views here.
-def mi_vista(request):
-    return HttpResponse("<h1>IVAN XD</h1><h2>HOLAAaa</h2> ")
+
+class inicio(TemplateView):
+    template_name = 'inicio.html'
+    
+class juanapag(TemplateView):
+    template_name = 'juana.html'
+
+class lobo(TemplateView):
+    template_name = 'lobito.html'
 

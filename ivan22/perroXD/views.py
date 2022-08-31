@@ -12,4 +12,7 @@ class juanapag(TemplateView):
 
 class lobo(TemplateView):
     template_name = 'lobito.html'
+    
+class prueba(TemplateView):
+    template_name = 'pruebas.html'
 

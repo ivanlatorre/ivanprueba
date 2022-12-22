@@ -7,4 +7,4 @@ C:\Users\ivan_\Desktop\INFORMATORIO-2022\ivan\ivanprueba\ivan22>
 user : ivan720
 pass : ivan756589
 
-modificacion para activar el git
+modificacion para activar el git agregado nuevamente
